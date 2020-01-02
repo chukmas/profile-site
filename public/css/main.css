@@ -1,0 +1,42 @@
+#form{
+
+    border: grey 2px solid;
+    border-radius:10px ;
+}
+
+#facebook, #yahoo, #linkedin{
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border:1px black solid;
+    border-radius:100%;
+    padding:10px;
+  }
+  
+  #phone{
+      border:1px grey solid;
+      background-color:#778899;
+  }
+  #social{
+    border:1px grey solid;
+    background-color:#778899;
+}
+#email{
+    border:1px grey solid;
+    background-color:#778899;
+}
+
+button{
+    animation-duration: 5s;
+}
+
+#image5{
+
+    border: black solid  1px;
+    border-radius: 100%;
+}
+#footer{
+    color:white;
+}
