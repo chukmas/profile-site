@@ -6,6 +6,8 @@ const Message = new mongoose.Schema({
     email:{type:String, default:"", required:true},
     number:{type:Number, default:"", required:true},
     message:{type:String, default:"", required:true},
+    date:{type:Date, default: Date.now},
+
 
 
 })

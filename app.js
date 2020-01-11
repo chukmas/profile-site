@@ -1,3 +1,7 @@
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').config()
+}
+
 const express = require("express")
 const app = express()
 const message = require("./routes/message")
@@ -5,7 +9,7 @@ const expressLayouts = require("express-ejs-layouts");
 const mongoose = require("mongoose")
 const flash = require("connect-flash")
 const session = require("express-session")
-require("dotenv/config")
+//require("dotenv/config")
 
 
 

@@ -4,7 +4,7 @@ const Message = require("../models/Message")
 
 
 
-router.get("/index", (req,res)=>{
+router.get("/", (req,res)=>{
 
     res.render("index");
 })
